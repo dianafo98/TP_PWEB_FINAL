@@ -1,0 +1,119 @@
+﻿@model TP_PWEB.Models.Estacao
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Html.RenderPartial("~/Views/Shared/_NavBar.cshtml");
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALEF4KWP1d5vJzJnkNYTpuMbxfRI6QvBA&callback=initMap"
+        type="text/javascript"></script>
+
+<style type="text/css">
+
+    #map_canvas {
+        height: 400px;
+    }
+</style>
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Estação @Html.DisplayFor(model => model.NomeEstacao)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeEstacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeEstacao)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CustoPMinuto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CustoPMinuto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NPostos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NPostos)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EstacaoID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<script>
+    var estacao = @Html.Raw(Json.Encode(Model));
+	//console.log(cities);
+
+
+
+    $(document).ready(function() {
+        // execute
+        (function () {
+            var lat = estacao.Latitude;
+            var lng = estacao.Longitude;
+            // map options
+            var options = {
+                zoom:16,
+                center: new google.maps.LatLng(40.203425 , -8.425377),
+                mapTypeId: google.maps.MapTypeId.TERRAIN,
+                mapTypeControl: false
+            };
+
+
+            // init map
+            var map = new google.maps.Map(document.getElementById('map_canvas'), options);
+
+                // init markers
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(lat, lng),
+                    map: map,
+                    title: estacao.NomeEstacao
+                });
+
+                // process multiple info windows
+                (function(marker, i) {
+                    // add click event
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow = new google.maps.InfoWindow({
+                            content: estacao.NomeEstacao
+                        });
+                        infowindow.open(map, marker);
+                    });
+                })(marker, i);
+            
+        })();
+    });
+
+</script>
+
+<div id="map_canvas"></div>
+
