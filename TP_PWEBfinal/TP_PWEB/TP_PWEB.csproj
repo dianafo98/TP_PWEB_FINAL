@@ -215,8 +215,13 @@
     <Compile Include="Migrations\202001032001074_reservasroles.Designer.cs">
       <DependentUpon>202001032001074_reservasroles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001032324539_empresa.cs" />
+    <Compile Include="Migrations\202001032324539_empresa.Designer.cs">
+      <DependentUpon>202001032324539_empresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Empresa.cs" />
     <Compile Include="Models\Estacao.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -356,6 +361,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001032001074_reservasroles.resx">
       <DependentUpon>202001032001074_reservasroles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001032324539_empresa.resx">
+      <DependentUpon>202001032324539_empresa.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
