@@ -1,0 +1,15 @@
+﻿SET IDENTITY_INSERT [dbo].[Estacaos] ON
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (3, N'PCR Coimbra PRIO ', 0.2, 3,  40.203425 , -8.425377)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (4, N'Rua General Humberto Delgado', 0.102, 2, 40.204911 , -8.4116)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (5, N'Rua Sílvio Lima', 0.109, 4,40.1861833 , -8.41401944)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (6, N'Rua da Misericórdia, Lagar dos Cortiços, S. Martinho do Bispo', 0.103, 2, 40.192128 , -8.413002)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (7, N'Praça D. Dinis', 0.107, 4, 40.20781 , -8.42336)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (8, N'Rua Olímpio Nicolau Fernandes', 0.11, 4, 40.2116792 , -8.4263217)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (9, N'Alameda Dr. Armando Gonçalves', 0.14, 4, 40.2152917 , -8.41330556)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (10, N'Rua Flávio Rodrigues, AB', 0.15, 2, 40.217469 , -8.404889)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (11, N'Rua do Carmo', 0.14, 2, 0.211579 , -8.432404)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (12, N'Casa do Sal', 0.12, 4, 40.217627423 , -8.43872222)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (13, N'Avenida José Bonifácio Andrade e Silva', 0.13, 2, 40.211371 , -8.444192)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (14, N'Rua 5 de Outubro', 0.11, 2, 40.197425 , -8.462)
+INSERT INTO [dbo].[Estacaos] ([EstacaoID], [NomeEstacao], [CustoPMinuto], [NPostos],[Latitude],[Longitude]) VALUES (15, N'Rua Adriano Lucas', 0.115, 1, 40.235931 , -8.432664)
+SET IDENTITY_INSERT [dbo].[Estacaos] OFF

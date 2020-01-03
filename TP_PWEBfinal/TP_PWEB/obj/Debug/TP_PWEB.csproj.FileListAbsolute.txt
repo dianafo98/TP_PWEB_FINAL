@@ -1,0 +1,542 @@
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\TP_PWEB.dll.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\TP_PWEB.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\TP_PWEB.pdb
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csc.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csc.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csc.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csi.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csi.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\csi.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.AppContext.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Console.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.IO.Compression.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Claims.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.ValueTuple.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\vbc.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\vbc.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\vbc.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Antlr3.Runtime.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\EntityFramework.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Newtonsoft.Json.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Helpers.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Mvc.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Optimization.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Razor.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\WebGrease.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Helpers.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Mvc.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Optimization.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.Razor.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Newtonsoft.Json.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Antlr3.Runtime.pdb
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\EntityFramework.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.csprojAssemblyReference.cache
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.Migrations.ModeloInicial.resources
+C:\Users\Diana\source\repos\TP_PWEB\TP_PWEB\obj\Debug\TP_PWEB.csproj.GenerateResource.cache
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.pdb
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.AppContext.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Console.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Compression.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Claims.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.ValueTuple.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.rsp
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Owin.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\WebGrease.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.pdb
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.ModeloInicial.resources
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.GenerateResource.cache
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.dll
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll.config
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\TP_PWEB.pdb
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe.config
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csc.rsp
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe.config
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\csi.rsp
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.AppContext.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Console.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Compression.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.AccessControl.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Claims.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.ValueTuple.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe.config
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.rsp
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Owin.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\WebGrease.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.pdb
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csprojAssemblyReference.cache
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.ModeloInicial.resources
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.GenerateResource.cache
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.dll
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login.resources
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csprojAssemblyReference.cache
+C:\Users\Diana\source\repos\TP_PWEB\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login.resources
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll.config
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.pdb
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe.config
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.rsp
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe.config
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.rsp
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.AppContext.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Console.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Compression.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Claims.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.ValueTuple.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe.config
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.rsp
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Owin.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\WebGrease.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.pdb
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csprojAssemblyReference.cache
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.ModeloInicial.resources
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login.resources
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.GenerateResource.cache
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.dll
+C:\Users\carol\OneDrive\Ambiente de Trabalho\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll.config
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\TP_PWEB.pdb
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.exe.config
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csc.rsp
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.exe.config
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\csi.rsp
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.AppContext.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Console.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Compression.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Claims.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.ValueTuple.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.exe.config
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\vbc.rsp
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Owin.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\WebGrease.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Helpers.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Mvc.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Optimization.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.Razor.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\System.Web.WebPages.Razor.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Newtonsoft.Json.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Antlr3.Runtime.pdb
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\EntityFramework.SqlServer.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csprojAssemblyReference.cache
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.ModeloInicial.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.GenerateResource.cache
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.dll
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login1.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login11.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.login12.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.reservas.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.reservas1.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.reservas2.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.latlong.resources
+C:\Users\Diana\Downloads\TP_WEBtema\TP_WEBtema\TP_PWEB\obj\Debug\TP_PWEB.Migrations.reservasroles.resources
