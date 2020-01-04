@@ -34,75 +34,7 @@
 
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">e-Recarga</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-
-                <ul class="navbar-nav text-uppercase ml-auto">
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
-
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Postos de Carregamento</a>
-
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#about">Sobre nós</a>
-
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#team">Equipa</a>
-
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contacte-nos</a>
-
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#estacoes">
-                            @Html.ActionLink("Lista Estações", "Index", "Estacaos", routeValues: null, htmlAttributes: new { id = "estacaosLink" })
-                         </a>
-                    </li>
-
-                    <li class="nav-item">
-
-                        <a class="nav-link js-scroll-trigger" href="#reservas">
-                            @Html.ActionLink("Reservas", "Index", "Reservas", routeValues: null, htmlAttributes: new { id = "reservasLink" })
-                        </a>
-                    </li>
-
-
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-
-                    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-
-                    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
-
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
+    @Html.Partial("~/Views/Shared/_NavBar.cshtml");
     <!-- Header -->
     <header class="masthead">
         <div class="container">

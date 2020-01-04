@@ -5,61 +5,66 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+    <section class="page-section">
+        <div class="container">
+            <h2>Lista de Reservas</h2>
+            <p>
+                @Html.ActionLink("Criar Estação", "Create")
+            </p>
+            <table class="table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.EstacaoReservada.NomeEstacao)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.PostoReservado.PostoID)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DataReserva)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Duracao)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.ReservaConfirmada)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Custo)
+                        </th>
+                        <th></th>
+                    </tr>
+                    </thead>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<div>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.EstacaoReservada.NomeEstacao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PostoReservado.PostoID)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataReserva)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Duracao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ReservaConfirmada)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Custo)
-        </th>
-        <th></th>
-    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EstacaoReservada.NomeEstacao)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PostoReservado.PostoID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataReserva)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Duracao)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ReservaConfirmada ? "Sim" : "Não")
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Custo)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.CodigoServico }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.CodigoServico }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.CodigoServico })
+                            </td>
+                        </tr>
+                    }
 
-@foreach (var item in Model) {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.EstacaoReservada.NomeEstacao)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.PostoReservado.PostoID)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.DataReserva)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Duracao)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.ReservaConfirmada ? "Sim" : "Não")
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Custo)
-    </td>
-    <td>
-        @Html.ActionLink("Edit", "Edit", new { id = item.CodigoServico }) |
-        @Html.ActionLink("Details", "Details", new { id = item.CodigoServico }) |
-        @Html.ActionLink("Delete", "Delete", new { id = item.CodigoServico })
-    </td>
-</tr>
-}
-
-</table>
+            </table>
+            </div>
+        </section>

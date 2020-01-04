@@ -1,28 +1,31 @@
 ﻿@{
     ViewBag.Title = "_NavBar";
 }
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- <title>Agency - Start Bootstrap Theme</title>-->
-<title>@ViewBag.Title - E-Recarga</title>
-@Styles.Render("~/Content/css")
-@Scripts.Render("~/bundles/modernizr")
+   
+    <title>@ViewBag.Title - E-Recarga</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
 
-<!-- Bootstrap core CSS -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom fonts for this template -->
-<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-<!-- Custom styles for this template -->
-<link href="css/agency.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
 
 </head>
 
@@ -31,7 +34,7 @@
     <!-- Navigation -->
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
+        <div class="container pt-3">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">e-Recarga</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -43,9 +46,6 @@
                         <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Postos de Carregamento</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">Sobre nós</a>
                     </li>
                     <li class="nav-item">
@@ -54,14 +54,17 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contacte-nos</a>
                     </li>
-                    <li class="nav-link js-scroll-trigger">
-                        @Html.ActionLink("Lista Estações", "ListarTodasEstacoes", null, new { @class = "nav-link" })
+                    <li class="nav-item">
+                        @Html.ActionLink("Estações", "Index", "Estacaos", routeValues: null, htmlAttributes: new { id = "estacoesLink", @class = "nav-link js-scroll-trigger" })
                     </li>
-
+                    <li class="nav-item">
+                        @Html.ActionLink("Reservas", "Index", "Reservas", routeValues: null, htmlAttributes: new { id = "estacoesLink", @class = "nav-link js-scroll-trigger" })
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-                    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+                    <li><a role="button">@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", type = "button", @class = "btn btn-warning mr-2 mt-2" })</a></li>
+                    <li><a role="button">@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "registerLink", type = "button", @class = "btn btn-warning mr-2 mt-2", @style = "background-color=#212529" })</a></li>
+
                 </ul>
             </div>
         </div>
@@ -83,3 +86,5 @@
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
     <div class="container body-content"></div>
+</body>
+</html>

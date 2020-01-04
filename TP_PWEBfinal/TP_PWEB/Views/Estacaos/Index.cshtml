@@ -4,61 +4,65 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+    <section class="page-section">
+        <div class="container">
+            <h2>Lista de Estações</h2>
+            <p>
+                @Html.ActionLink("Criar Estação", "Create")
+            </p>
+            <table class="table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.NomeEstacao)
+                        </th>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.CustoPMinuto)
+                        </th>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Longitude)
+                        </th>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.Latitude)
+                        </th>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.NPostos)
+                        </th>
+                        <th class="col-sm-4">
+                            @Html.DisplayNameFor(model => model.EmpresaNome)
+                        </th>
+                       
+                    </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomeEstacao)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CustoPMinuto)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Longitude)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Latitude)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NPostos)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.EmpresaNome)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.EstacaoID }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.EstacaoID }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.EstacaoID })
+                            </td>
+                        </tr>
+                    }
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.NomeEstacao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CustoPMinuto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Longitude)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Latitude)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NPostos)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.EmpresaNome)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.NomeEstacao)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.CustoPMinuto)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Longitude)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Latitude)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.NPostos)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.EmpresaNome)
-    </td>
-    <td>
-        @Html.ActionLink("Edit", "Edit", new { id = item.EstacaoID }) |
-        @Html.ActionLink("Details", "Details", new { id = item.EstacaoID }) |
-        @Html.ActionLink("Delete", "Delete", new { id = item.EstacaoID })
-    </td>
-</tr>
-}
-
-</table>
+            </table>
+            </div>
+        </section>
