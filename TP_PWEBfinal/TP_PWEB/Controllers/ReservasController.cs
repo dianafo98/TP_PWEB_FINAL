@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Validation;
+using Microsoft.AspNet.Identity;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -20,15 +23,15 @@ namespace TP_PWEB.Controllers
         {
             if (User.IsInRole(TipoPerfil.User))
             {
-                var nome = User.Identity.Name;
-                var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador.NomeUsr == nome);
+                var id = User.Identity.GetUserId();
+                var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador.ID == id);
                 return View("IndexCliente", reservaCliente.ToList());
             }
             if (User.IsInRole(TipoPerfil.User))
             {
-                var nome = User.Identity.Name;
-                var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador.NomeUsr == nome);
-                return View("IndexCliente", reservaCliente.ToList());
+                var id = User.Identity.GetUserId();
+                var reservaEmpresa = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.EstacaoReservada.Empresa.ID == id);
+                return View("IndexEmpresa", reservaEmpresa.ToList());
             }
             var reservas = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador);
             return View(reservas.ToList());
@@ -46,13 +49,49 @@ namespace TP_PWEB.Controllers
             {
                 return HttpNotFound();
             }
-            return View(reserva);
+            if (User.IsInRole(TipoPerfil.User))
+            {
+                return View("DetalhesUtilizador", reserva);
+            }
+            if (User.IsInRole(TipoPerfil.Company))
+            {
+                return View("DetalhesEmpresa", reserva);
+            }
+                return View(reserva);
+        }
+        private List<Estacao> GetEstacoesDisponiveis()
+        {
+            List<Estacao> estacoes = new List<Estacao>();
+            var lista = db.Estacoes
+                    .GroupJoin(db.Reservas,
+                               e => e.EstacaoID,
+                               p => p.PostoID,
+                               (e, p) => new { estacao= e, posto = p });
+            foreach (var e in lista)
+            {
+                if (e.posto.Count() > 0)
+                {
+                    var rpLista = e.posto.Where(p => p.PostoReservado.Disponibilidade == true);
+                    foreach (var e1 in rpLista)
+                        estacoes.Add(e1.EstacaoReservada);
+                }
+                else
+                {
+                    estacoes.Add(e.estacao);
+                }
+            }
+            return estacoes;
         }
 
         // GET: Reservas/Create
+        [Authorize(Roles = TipoPerfil.User)]
+        [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Create()
         {
-            return View();
+            if (User.IsInRole(TipoPerfil.User))
+                return View(GetEstacoesDisponiveis());
+            else
+                return RedirectToAction("Index", "Reservas");
         }
 
         // POST: Reservas/Create
@@ -67,7 +106,10 @@ namespace TP_PWEB.Controllers
             reserva.EstacaoReservada = db.Estacoes.Where(i => i.EstacaoID == reserva.EstacaoID).SingleOrDefault();
             reserva.PostoReservado = db.Postos.Where(i => i.PostoID == reserva.PostoID).SingleOrDefault();
 
-
+            if (reserva.Utilizador.Dinheiro - reserva.Custo < 0)
+                ModelState.AddModelError("Utilizador.Dinheiro", "Fundos Insuficientes!");
+            if( DateTime.Compare(reserva.DataReserva,DateTime.Today)<0)
+                ModelState.AddModelError("DataReserva", "Data invalida!");
             if (ModelState.IsValid)
             {
                 reserva.Utilizador.Dinheiro -= reserva.Custo;

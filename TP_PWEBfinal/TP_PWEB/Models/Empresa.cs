@@ -8,7 +8,10 @@ namespace TP_PWEB.Models
 {
     public class Empresa
     {
+        [Key]
         public int EmpresaID { get; set; }
+
+        public string ID { get; set; }
         [Required]
         [Display(Name = "Nome Empresa")]
         public string NomeEmpresa { get; set;}

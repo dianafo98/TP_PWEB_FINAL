@@ -30,6 +30,8 @@ namespace TP_PWEB.Models
         [Display(Name = "Nº de Postos")]
         public int NPostos { get; set; }
 
+        public Empresa Empresa { get;set; }
+
         [Required]
         public List<Posto> Postos { get; set; }
 
