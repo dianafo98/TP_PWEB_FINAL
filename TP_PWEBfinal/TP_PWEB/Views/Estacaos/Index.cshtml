@@ -27,32 +27,38 @@
         <th>
             @Html.DisplayNameFor(model => model.NPostos)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpresaNome)
+        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.NomeEstacao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CustoPMinuto)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Longitude)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Latitude)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NPostos)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.EstacaoID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.EstacaoID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.EstacaoID })
-        </td>
-    </tr>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.NomeEstacao)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CustoPMinuto)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Longitude)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Latitude)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.NPostos)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EmpresaNome)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.EstacaoID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.EstacaoID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.EstacaoID })
+    </td>
+</tr>
 }
 
 </table>

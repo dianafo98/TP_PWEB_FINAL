@@ -23,7 +23,7 @@ namespace TP_PWEB.Models
         public DbSet<Estacao> Estacoes { get; set; }
         public DbSet<Reserva> Reservas { get; set; }
         public DbSet<Utilizador> Utilizadores { get; set; }
-       
+        public DbSet<Empresa> Empresas { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

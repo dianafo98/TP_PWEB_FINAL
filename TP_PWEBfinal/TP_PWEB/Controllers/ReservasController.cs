@@ -122,6 +122,8 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Reservas/Edit/5
+        [Authorize(Roles = TipoPerfil.User)]
+        [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Edit(string id)
         {
             if (id == null)
@@ -133,6 +135,8 @@ namespace TP_PWEB.Controllers
             {
                 return HttpNotFound();
             }
+            ViewBag.Estacao = new SelectList(db.Estacoes, "ID","Nome Estação",reserva.EstacaoID);
+            ViewBag.Posto = new SelectList(db.Postos,"ID","Disponibilidade",reserva.PostoReservado);
             return View(reserva);
         }
 
@@ -153,6 +157,8 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Reservas/Delete/5
+        [Authorize(Roles = TipoPerfil.User)]
+        [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Delete(string id)
         {
             if (id == null)

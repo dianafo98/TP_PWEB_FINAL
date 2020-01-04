@@ -30,6 +30,8 @@ namespace TP_PWEB.Models
         [Display(Name = "Nº de Postos")]
         public int NPostos { get; set; }
 
+        [Display(Name = "Nome Empresa Proprietária")] 
+        public string EmpresaNome { get; set; }
         public Empresa Empresa { get;set; }
 
         [Required]
@@ -37,7 +39,7 @@ namespace TP_PWEB.Models
 
 
 
-
+        
 
 
     }

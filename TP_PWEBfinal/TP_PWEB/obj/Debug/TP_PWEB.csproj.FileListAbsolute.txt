@@ -656,3 +656,4 @@ C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\
 C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.dll
 C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.pdb
 C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.Migrations.empresa.resources
+C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.Migrations.empresacont.resources
