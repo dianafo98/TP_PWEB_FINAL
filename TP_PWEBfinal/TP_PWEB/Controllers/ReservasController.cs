@@ -89,13 +89,14 @@ namespace TP_PWEB.Controllers
         [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Create()
         {
+            ViewBag.EstacaoID = new SelectList(db.Estacoes, "ID", "Nome");
             if (User.IsInRole(TipoPerfil.User))
             {
 
                 var ID = User.Identity.GetUserId();
                 var reserva = new Reserva { UtilizadorID =  ID};
 
-                return View("Create", reserva);
+                return View("CreateCliente", reserva);
             }
             return View();
         }

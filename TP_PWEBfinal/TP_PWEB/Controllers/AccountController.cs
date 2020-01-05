@@ -233,7 +233,7 @@ namespace TP_PWEB.Controllers
             {
                 return Redirect(returnUrl);
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("index", "Home");
         }
 
         internal class ChallengeResult : HttpUnauthorizedResult
