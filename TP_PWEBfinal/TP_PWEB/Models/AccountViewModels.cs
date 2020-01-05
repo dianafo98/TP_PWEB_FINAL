@@ -73,7 +73,9 @@ namespace TP_PWEB.Models
        
         [Display(Name = "Validade do Cartão")]
         //[VerificaValidade]
+        [Range(/*DateTime.Today.Month*/1, 12, ErrorMessage = "Mês Invalido")]
         public int CartaoValMonth { get; set; }
+        [Range(/*DateTime.Today.Year*/2020, 2025, ErrorMessage = "Ano Invalido")]
         public int CartaoValYear { get; set; }
 
         
@@ -86,6 +88,7 @@ namespace TP_PWEB.Models
         
         [Display(Name = "Data de Nascimento")]
         //[VerificaIdade]
+        [DataType(DataType.Date)]
         public DateTime? DataNasc { get; set; }
 
         

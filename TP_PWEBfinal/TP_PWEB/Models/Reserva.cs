@@ -13,17 +13,24 @@ namespace TP_PWEB.Models
         public string CodigoServico { get; set; }
 
         public string UtilizadorID { get; set; }
+        public string UtilizadorNome{ get; set; }
         public Utilizador Utilizador { get; set; }
 
         public int EstacaoID { get; set; }
+        public string EstacaoNome { get; set; }
         public Estacao EstacaoReservada { get; set; }
         public int PostoID { get; set; }
         public Posto PostoReservado { get; set; }
 
         [Required]
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.Date)]
         [Display(Name = "Data Reserva")]
         public DateTime DataReserva { get; set; }
+        [Required]
+        [DataType(DataType.Time)]
+        [DisplayFormat(DataFormatString = "{0: H:mm}")]
+        [Display(Name = "Hora Reserva")]
+        public DateTime HoraReserva { get; set; }
 
         [Required]
         [DisplayFormat(DataFormatString = "{0: H:mm}")]

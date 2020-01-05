@@ -25,6 +25,7 @@ namespace TP_PWEB.Models
 
         [Required]
         //[VerificaIdade]
+        [DataType(DataType.Date)]
         public DateTime? DataNasc { get; set; }
 
         [Required]

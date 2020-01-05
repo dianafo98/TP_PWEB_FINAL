@@ -13,7 +13,7 @@
             <table class="table-hover">
                 <thead class="thead-dark">
                     <tr>
-                        <th class="col-sm-4">
+                        <th class="col-sm-6">
                             @Html.DisplayNameFor(model => model.NomeEstacao)
                         </th>
                         <th class="col-sm-4">
@@ -28,7 +28,7 @@
                         <th class="col-sm-4">
                             @Html.DisplayNameFor(model => model.NPostos)
                         </th>
-                        <th class="col-sm-4">
+                        <th class="col-auto">
                             @Html.DisplayNameFor(model => model.EmpresaNome)
                         </th>
                        
@@ -55,10 +55,11 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.EmpresaNome)
                             </td>
-                            <td>
-                                @Html.ActionLink("Editar", "Edit", new { id = item.EstacaoID }) |
-                                @Html.ActionLink("Detalhes", "Details", new { id = item.EstacaoID }) |
-                                @Html.ActionLink("Apagar", "Delete", new { id = item.EstacaoID })
+                            <td class="col-auto">
+                                @Html.ActionLink("Editar", "Edit", new { id = item.EstacaoID , type = "button", @class = "btn btn-warning mr-2 mt-2"}) |
+                                @Html.ActionLink("Reservar", "Create", "Reservas", routeValues: null, htmlAttributes: new { id = item.EstacaoID , type = "button", @class = "btn btn-warning mr-2 mt-2"})|
+                                @Html.ActionLink("Detalhes", "Details", new { id = item.EstacaoID  , type = "button", @class = "btn btn-warning mr-2 mt-2"}) |
+                                @Html.ActionLink("Apagar", "Delete", new { id = item.EstacaoID , type = "button", @class = "btn btn-warning mr-2 mt-2"})
                             </td>
                         </tr>
                     }

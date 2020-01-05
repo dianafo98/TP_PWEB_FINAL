@@ -137,7 +137,7 @@ namespace TP_PWEB.Controllers
 
                         if (model.TipoPerfil == TipoPerfil.User)
                         {
-                            Utilizador user = new Utilizador { ID = newuser.Id, Email = model.Email, NomeUsr = model.NomeUsr, PerfilID = model.TipoPerfil };
+                            Utilizador user = new Utilizador { ID = newuser.Id, Email = model.Email, NomeUsr = model.NomeUsr, PerfilID = model.TipoPerfil ,DataNasc=model.DataNasc, CartaoCVC=model.CartaoCVC, CartaoNum=model.CartaoNum, CartaoValMonth=model.CartaoValMonth, CartaoValYear=model.CartaoValYear, Dinheiro=model.Dinheiro,  MetodoPagamento=true,   Telefone=model.Telefone};
                             db.Utilizadores.Add(user);
                             db.SaveChanges();
                         }

@@ -85,8 +85,7 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Reservas/Create
-        [Authorize(Roles = TipoPerfil.User)]
-        [Authorize(Roles = TipoPerfil.Admin)]
+        [Authorize(Roles = "admin,Cliente")]
         public ActionResult Create()
         {
             ViewBag.EstacaoID = new SelectList(db.Estacoes, "ID", "Nome");
@@ -106,11 +105,11 @@ namespace TP_PWEB.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "CodigoServico,DataReserva,Duracao,EstacaoID,PostoID, UtilizadorID")] Reserva reserva)
+        public ActionResult Create([Bind(Include = "DataReserva,HoraReserva,Duracao,EstacaoNome,PostoID, UtilizadorID")] Reserva reserva)
         {
             reserva.Custo= reserva.CustoPrevisto();
             reserva.Utilizador = db.Utilizadores.Where(i => i.ID == reserva.UtilizadorID).SingleOrDefault();
-            reserva.EstacaoReservada = db.Estacoes.Where(i => i.EstacaoID == reserva.EstacaoID).SingleOrDefault();
+            reserva.EstacaoReservada = db.Estacoes.Where(i => i.NomeEstacao == reserva.EstacaoNome).SingleOrDefault();
             reserva.PostoReservado = db.Postos.Where(i => i.PostoID == reserva.PostoID).SingleOrDefault();
 
             if (reserva.Utilizador.Dinheiro - reserva.Custo < 0)
@@ -120,6 +119,7 @@ namespace TP_PWEB.Controllers
             if (ModelState.IsValid)
             {
                 reserva.Utilizador.Dinheiro -= reserva.Custo;
+                reserva.ReservaConfirmada = true;
                 db.Reservas.Add(reserva);
                 db.SaveChanges();
                 return RedirectToAction("Details/" + reserva.CodigoServico);
@@ -129,8 +129,7 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Reservas/Edit/5
-        [Authorize(Roles = TipoPerfil.User)]
-        [Authorize(Roles = TipoPerfil.Admin)]
+        [Authorize(Roles = "admin,Cliente")]
         public ActionResult Edit(string id)
         {
             if (id == null)
@@ -164,8 +163,7 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Reservas/Delete/5
-        [Authorize(Roles = TipoPerfil.User)]
-        [Authorize(Roles = TipoPerfil.Admin)]
+        [Authorize(Roles = "admin,Cliente")]
         public ActionResult Delete(string id)
         {
             if (id == null)
