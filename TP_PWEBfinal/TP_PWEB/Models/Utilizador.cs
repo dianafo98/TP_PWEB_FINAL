@@ -19,7 +19,7 @@ namespace TP_PWEB.Models
         public string NomeUsr { get; set; }
 
         [Required]
-        [VerificaIdade]
+       // [VerificaIdade]
         public DateTime? DataNasc { get; set; }
 
         [Required]
@@ -29,20 +29,19 @@ namespace TP_PWEB.Models
         public string Email { get; set; }
 
         [Required]
-        [VerificaNCartao]
+        public bool MetodoPagamento { get; set; }
+        [Required]
+       // [VerificaNCartao]
         public int CartaoNum { get; set; }
 
         [Required]
-        [VerificaValidade]
+       /// [VerificaValidade]
 		public int CartaoValMonth { get; set; }
         public int CartaoValYear { get; set; }
     
-        [Required]
-		[StringLength(255)]
-		private string CartaoNome { get; set; }
-
+        
 		[Required]
-		[VerificaCVC]
+		//[VerificaCVC]
 		public int CartaoCVC { get; set; }
         [Required]
         [Range(0, double.MaxValue, ErrorMessage = "O valor tem de ser maior do que 0")]

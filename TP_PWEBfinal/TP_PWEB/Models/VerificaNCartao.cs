@@ -10,7 +10,7 @@ namespace TP_PWEB.Models
 	{
 		protected override ValidationResult IsValid(object value, ValidationContext validationContext)
 		{
-			var utilizador = (Utilizador)validationContext.ObjectInstance;
+			var utilizador = (RegisterViewModel)validationContext.ObjectInstance;
 
 			if (utilizador.CartaoNum == 0) //se não inserir
 				return new ValidationResult("Número do cartão necessário.");

@@ -774,3 +774,5 @@ C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB_FINAL\TP_PWEBfinal\TP_PWEB\obj\De
 C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.csproj.CopyComplete
 C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.dll
 C:\Documentos_Carolina\PWEB\TP_WEBtema\TP_PWEB_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.pdb
+C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.Migrations.registercompleto.resources
+C:\Users\Diana\Desktop\ISEC\4ºano\PWEB\TP_FINAL\TP_PWEBfinal\TP_PWEB\obj\Debug\TP_PWEB.Migrations.clientes.resources

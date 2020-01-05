@@ -223,6 +223,14 @@
     <Compile Include="Migrations\202001041410006_empresacon~t.Designer.cs">
       <DependentUpon>202001041410006_empresacon~t.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001051442221_registercompleto.cs" />
+    <Compile Include="Migrations\202001051442221_registercompleto.Designer.cs">
+      <DependentUpon>202001051442221_registercompleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001051623366_clientes.cs" />
+    <Compile Include="Migrations\202001051623366_clientes.Designer.cs">
+      <DependentUpon>202001051623366_clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Empresa.cs" />
@@ -340,6 +348,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911301858330_ModeloInicial.resx">
       <DependentUpon>201911301858330_ModeloInicial.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912061044142_login.resx">
       <DependentUpon>201912061044142_login.cs</DependentUpon>
@@ -373,6 +382,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001041410006_empresacon~t.resx">
       <DependentUpon>202001041410006_empresacon~t.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001051442221_registercompleto.resx">
+      <DependentUpon>202001051442221_registercompleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001051623366_clientes.resx">
+      <DependentUpon>202001051623366_clientes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

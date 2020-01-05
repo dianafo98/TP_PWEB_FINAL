@@ -128,8 +128,8 @@ namespace TP_PWEB.Controllers
 
                 if (result.Succeeded)
                 {
-                    try
-                    {
+                    //try
+                    //{
                         if (model.TipoPerfil != TipoPerfil.Admin)
                         {
                             UserManager.AddToRole(newuser.Id, model.TipoPerfil);
@@ -137,21 +137,27 @@ namespace TP_PWEB.Controllers
 
                         if (model.TipoPerfil == TipoPerfil.User)
                         {
-                            Utilizador userCard = new Utilizador { ID = newuser.Id, Email = model.Email };
-                            db.Utilizadores.Add(userCard);
+                            Utilizador user = new Utilizador { ID = newuser.Id, Email = model.Email };
+                            db.Utilizadores.Add(user);
                             db.SaveChanges();
                         }
-                    }
-                    catch (DbEntityValidationException ex)
-                    {
-                        foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                        if (model.TipoPerfil == TipoPerfil.Company)
                         {
-                            foreach (var validationError in entityValidationErrors.ValidationErrors)
-                            {
-                                Response.Write("Property: " + validationError.PropertyName + " Error: " + validationError.ErrorMessage);
-                            }
+                            Empresa emp = new Empresa { ID = newuser.Id, Email = model.Email, NomeEmpresa=model.NomeUsr };
+                            db.Empresas.Add(emp);
+                            db.SaveChanges();
                         }
-                    }
+                    //}
+                    //catch (DbEntityValidationException ex)
+                    //{
+                    //    foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                    //    {
+                    //        foreach (var validationError in entityValidationErrors.ValidationErrors)
+                    //        {
+                    //            Response.Write("Property: " + validationError.PropertyName + " Error: " + validationError.ErrorMessage);
+                    //        }
+                    //    }
+                    //}
                     await SignInManager.SignInAsync(newuser, isPersistent:false, rememberBrowser:false);
                     
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
@@ -159,6 +165,7 @@ namespace TP_PWEB.Controllers
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
+                   
 
                     return RedirectToAction("Index", "Manage");
                 }

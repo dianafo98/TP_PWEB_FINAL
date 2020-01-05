@@ -66,34 +66,34 @@ namespace TP_PWEB.Models
         public string ConfirmPassword { get; set; }
 
         [Required]
-        [VerificaNCartao]
+        //[VerificaNCartao]
         [Display(Name = "Número do Cartão de Crédito")]
         public int CartaoNum { get; set; }
 
         [Required]
         [Display(Name = "Validade do Cartão")]
-        [VerificaValidade]
+        //[VerificaValidade]
         public int CartaoValMonth { get; set; }
         public int CartaoValYear { get; set; }
 
-        [Required]
-        [Display(Name = "Nome do Cartão")]
-        [StringLength(255)]
-        private string CartaoNome { get; set; }
+        
 
         [Required]
         [Display(Name = "CVC")]
-        [VerificaCVC]
+        //[VerificaCVC]
         public int CartaoCVC { get; set; }
 
         [Required]
         [Display(Name = "Data de Nascimento")]
-        [VerificaIdade]
+        //[VerificaIdade]
         public DateTime? DataNasc { get; set; }
 
         [Required]
         [Display(Name = "Número de telemóvel")]
         public int Telefone { get; set; }
+        [Required]
+        [Range(0, double.MaxValue, ErrorMessage = "O valor tem de ser maior do que 0")]
+        public double Dinheiro { get; set; }
     }
 
     public class ResetPasswordViewModel

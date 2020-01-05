@@ -101,14 +101,11 @@ namespace TP_PWEB.Controllers
 
         //
         // GET: /Manage/AddPhoneNumber
-        public ActionResult AddPhoneNumber()
-        {
-            return View();
-        }
+       
 
-        //
-        // GET: /Manage/ChangePassword
-        public ActionResult ChangePassword()
+            //
+            // GET: /Manage/ChangePassword
+            public ActionResult ChangePassword()
         {
             return View();
         }

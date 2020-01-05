@@ -9,7 +9,7 @@ namespace TP_PWEB.Models
 	{
 		protected override ValidationResult IsValid(object value, ValidationContext validationContext)
 		{
-			var utilizador = (Utilizador)validationContext.ObjectInstance;
+			var utilizador = (RegisterViewModel)validationContext.ObjectInstance;
 
 			var tamanho = utilizador.CartaoCVC.ToString().Length;
 

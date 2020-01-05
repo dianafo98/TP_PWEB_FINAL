@@ -12,7 +12,7 @@ namespace TP_PWEB.Models
         [Display(Name = "Código de Serviço")]
         public string CodigoServico { get; set; }
 
-        public int UtilizadorID { get; set; }
+        public string UtilizadorID { get; set; }
         public Utilizador Utilizador { get; set; }
 
         public int EstacaoID { get; set; }

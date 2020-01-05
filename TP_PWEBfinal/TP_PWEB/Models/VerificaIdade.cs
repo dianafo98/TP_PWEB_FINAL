@@ -9,7 +9,7 @@ namespace TP_PWEB.Models
     {
 		protected override ValidationResult IsValid(object value, ValidationContext validationContext)
 		{
-			var utilizador = (Utilizador)validationContext.ObjectInstance;
+			var utilizador = (RegisterViewModel)validationContext.ObjectInstance;
 
 			if (utilizador.DataNasc == null) //se não inserir
 				return new ValidationResult("Data de nascimento necessária.");

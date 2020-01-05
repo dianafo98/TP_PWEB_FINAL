@@ -27,7 +27,7 @@ namespace TP_PWEB.Controllers
                 var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Where(x => x.Utilizador.ID == id);
                 return View("IndexCliente", reservaCliente.ToList());
             }
-            if (User.IsInRole(TipoPerfil.User))
+            if (User.IsInRole(TipoPerfil.Company))
             {
                 var id = User.Identity.GetUserId();
                 var reservaEmpresa = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Where(x => x.EstacaoReservada.Empresa.ID == id);
@@ -36,6 +36,7 @@ namespace TP_PWEB.Controllers
             var reservas = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador);
             return View(reservas.ToList());
         }
+       
 
         // GET: Reservas/Details/5
         public ActionResult Details(string id)
@@ -89,9 +90,14 @@ namespace TP_PWEB.Controllers
         public ActionResult Create()
         {
             if (User.IsInRole(TipoPerfil.User))
-                return View(GetEstacoesDisponiveis());
-            else
-                return RedirectToAction("Index", "Reservas");
+            {
+
+                var ID = User.Identity.GetUserId();
+                var reserva = new Reserva { UtilizadorID =  ID};
+
+                return View("Create", reserva);
+            }
+            return View();
         }
 
         // POST: Reservas/Create
@@ -102,7 +108,7 @@ namespace TP_PWEB.Controllers
         public ActionResult Create([Bind(Include = "CodigoServico,DataReserva,Duracao,EstacaoID,PostoID, UtilizadorID")] Reserva reserva)
         {
             reserva.Custo= reserva.CustoPrevisto();
-            reserva.Utilizador = db.Utilizadores.Where(i => i.UtilizadorID == reserva.UtilizadorID).SingleOrDefault();
+            reserva.Utilizador = db.Utilizadores.Where(i => i.ID == reserva.UtilizadorID).SingleOrDefault();
             reserva.EstacaoReservada = db.Estacoes.Where(i => i.EstacaoID == reserva.EstacaoID).SingleOrDefault();
             reserva.PostoReservado = db.Postos.Where(i => i.PostoID == reserva.PostoID).SingleOrDefault();
 
