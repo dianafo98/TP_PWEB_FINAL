@@ -137,13 +137,13 @@ namespace TP_PWEB.Controllers
 
                         if (model.TipoPerfil == TipoPerfil.User)
                         {
-                            Utilizador user = new Utilizador { ID = newuser.Id, Email = model.Email };
+                            Utilizador user = new Utilizador { ID = newuser.Id, Email = model.Email, NomeUsr = model.NomeUsr, PerfilID = model.TipoPerfil };
                             db.Utilizadores.Add(user);
                             db.SaveChanges();
                         }
                         if (model.TipoPerfil == TipoPerfil.Company)
                         {
-                            Empresa emp = new Empresa { ID = newuser.Id, Email = model.Email, NomeEmpresa=model.NomeUsr };
+                            Empresa emp = new Empresa { ID = newuser.Id, Email = model.Email, NomeEmpresa=model.NomeUsr, PerfilID=model.TipoPerfil };
                             db.Empresas.Add(emp);
                             db.SaveChanges();
                         }

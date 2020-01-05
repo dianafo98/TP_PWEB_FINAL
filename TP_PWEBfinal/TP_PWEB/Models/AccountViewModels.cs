@@ -65,12 +65,12 @@ namespace TP_PWEB.Models
         [Compare("Password", ErrorMessage = "As Palavra-Passe não coincidem.")]
         public string ConfirmPassword { get; set; }
 
-        [Required]
+     
         //[VerificaNCartao]
         [Display(Name = "Número do Cartão de Crédito")]
         public int CartaoNum { get; set; }
 
-        [Required]
+       
         [Display(Name = "Validade do Cartão")]
         //[VerificaValidade]
         public int CartaoValMonth { get; set; }
@@ -78,20 +78,20 @@ namespace TP_PWEB.Models
 
         
 
-        [Required]
+       
         [Display(Name = "CVC")]
-        //[VerificaCVC]
+        [VerificaCVC]
         public int CartaoCVC { get; set; }
 
-        [Required]
+        
         [Display(Name = "Data de Nascimento")]
         //[VerificaIdade]
         public DateTime? DataNasc { get; set; }
 
-        [Required]
+        
         [Display(Name = "Número de telemóvel")]
         public int Telefone { get; set; }
-        [Required]
+        
         [Range(0, double.MaxValue, ErrorMessage = "O valor tem de ser maior do que 0")]
         public double Dinheiro { get; set; }
     }

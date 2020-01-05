@@ -231,6 +231,22 @@
     <Compile Include="Migrations\202001051623366_clientes.Designer.cs">
       <DependentUpon>202001051623366_clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001051953298_nopassword.cs" />
+    <Compile Include="Migrations\202001051953298_nopassword.Designer.cs">
+      <DependentUpon>202001051953298_nopassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001052027337_required.cs" />
+    <Compile Include="Migrations\202001052027337_required.Designer.cs">
+      <DependentUpon>202001052027337_required.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001052046360_requiredv1.2.cs" />
+    <Compile Include="Migrations\202001052046360_requiredv1.2.Designer.cs">
+      <DependentUpon>202001052046360_requiredv1.2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001052117423_requiredv1.3.cs" />
+    <Compile Include="Migrations\202001052117423_requiredv1.3.Designer.cs">
+      <DependentUpon>202001052117423_requiredv1.3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Empresa.cs" />
@@ -389,6 +405,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001051623366_clientes.resx">
       <DependentUpon>202001051623366_clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001051953298_nopassword.resx">
+      <DependentUpon>202001051953298_nopassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001052027337_required.resx">
+      <DependentUpon>202001052027337_required.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001052046360_requiredv1.2.resx">
+      <DependentUpon>202001052046360_requiredv1.2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001052117423_requiredv1.3.resx">
+      <DependentUpon>202001052117423_requiredv1.3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

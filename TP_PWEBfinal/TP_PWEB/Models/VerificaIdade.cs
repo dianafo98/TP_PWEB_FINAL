@@ -7,14 +7,14 @@ namespace TP_PWEB.Models
 {
     public class VerificaIdade : ValidationAttribute
     {
-		protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+		protected override ValidationResult IsValid(object date, ValidationContext validationContext)
 		{
-			var utilizador = (RegisterViewModel)validationContext.ObjectInstance;
-
-			if (utilizador.DataNasc == null) //se não inserir
+			var utilizador = validationContext.ObjectInstance;
+			var data = (DateTime)date;
+			if (utilizador == null || data==null) //se não inserir
 				return new ValidationResult("Data de nascimento necessária.");
 
-			var idade = DateTime.Today.Year - utilizador.DataNasc.Value.Year;
+			var idade = DateTime.Today.Year - data.Year;
 
 			if (idade >= 18) //se for >18
 				return ValidationResult.Success;

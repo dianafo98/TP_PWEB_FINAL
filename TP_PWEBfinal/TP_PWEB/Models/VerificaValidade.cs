@@ -9,7 +9,7 @@ namespace TP_PWEB.Models
 	{
 		protected override ValidationResult IsValid(object value, ValidationContext validationContext)
 		{
-			var utilizador = (RegisterViewModel)validationContext.ObjectInstance;
+			var utilizador = (Utilizador)validationContext.ObjectInstance;
 
             //se não for numero de mês válido ou ano menor que o atual
             if (utilizador.CartaoValMonth > 12 || utilizador.CartaoValMonth < 0
