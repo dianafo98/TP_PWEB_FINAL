@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TP_PWEB.Models.Reserva>
+
+@{
+    ViewBag.Title = "IndexEmpresa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js">
+    $(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+</script>
+
+<section class="page-section">
+    <div class="container">
+        <h2>Lista de Reservas</h2>
+        <p>
+            @Html.ActionLink("Criar Estação", "Create")
+        </p>
+        <table class="table-hover">
+            <thead class="thead-dark" style="width:100%">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EstacaoReservada.NomeEstacao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Utilizador.ID)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataReserva)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Duracao)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Custo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ReservaConfirmada)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EstacaoReservada.NomeEstacao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Utilizador.ID)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataReserva)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Duracao)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Custo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ReservaConfirmada)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.CodigoServico }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.CodigoServico }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.CodigoServico })
+                        </td>
+                    </tr>
+                }
+
+        </table>
+    </div>
+</section>

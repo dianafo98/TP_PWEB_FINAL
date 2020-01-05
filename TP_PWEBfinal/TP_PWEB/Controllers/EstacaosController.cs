@@ -75,7 +75,7 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Estacaos/Edit/5
-        [Authorize(Roles = TipoPerfil.User)]
+        [Authorize(Roles = TipoPerfil.Company)]
         [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Edit(int? id)
         {
@@ -108,7 +108,7 @@ namespace TP_PWEB.Controllers
         }
 
         // GET: Estacaos/Delete/5
-        [Authorize(Roles = TipoPerfil.User)]
+        [Authorize(Roles = TipoPerfil.Company)]
         [Authorize(Roles = TipoPerfil.Admin)]
         public ActionResult Delete(int? id)
         {

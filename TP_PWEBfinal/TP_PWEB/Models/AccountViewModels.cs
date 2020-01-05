@@ -65,7 +65,7 @@ namespace TP_PWEB.Models
         [Compare("Password", ErrorMessage = "As Palavra-Passe não coincidem.")]
         public string ConfirmPassword { get; set; }
 
-        /*[Required]
+        [Required]
         [VerificaNCartao]
         [Display(Name = "Número do Cartão de Crédito")]
         public int CartaoNum { get; set; }
@@ -93,7 +93,7 @@ namespace TP_PWEB.Models
 
         [Required]
         [Display(Name = "Número de telemóvel")]
-        public int Telefone { get; set; }*/
+        public int Telefone { get; set; }
     }
 
     public class ResetPasswordViewModel

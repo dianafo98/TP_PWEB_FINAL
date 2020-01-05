@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    Html.RenderPartial("~/Views/Shared/_NavBar.cshtml");
+   // Html.RenderPartial("~/Views/Shared/_NavBar");
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -20,13 +20,17 @@
         height: 400px;
     }
 </style>
+<section>
+    @Html.Partial("~/Views/Shared/_NavBar.cshtml");
+</section>
+
 <section class="page-section">
     <div class="container">
 
-        <h2>Details</h2>
+        <h2>Detalhes</h2>
 
         <div>
-            <h4>Estacao</h4>
+            <h4>Estação</h4>
             <hr />
             <dl class="dl-horizontal">
                 <dt>
@@ -80,8 +84,8 @@
             </dl>
         </div>
         <p>
-            @Html.ActionLink("Edit", "Edit", new { id = Model.EstacaoID }) |
-            @Html.ActionLink("Back to List", "Index")
+            @Html.ActionLink("Editar", "Edit", new { id = Model.EstacaoID,type = "button", @class = "btn btn-warning mr-2 mt-2" }) |
+            @Html.ActionLink("Voltar", "Index",new { type = "button", @class = "btn btn-warning mr-2 mt-2"})
         </p>
         <script>
     var estacao = @Html.Raw(Json.Encode(Model));

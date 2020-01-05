@@ -334,6 +334,8 @@
     <Content Include="Views\Reservas\Create.cshtml" />
     <Content Include="Views\Reservas\Edit.cshtml" />
     <Content Include="Views\Reservas\Delete.cshtml" />
+    <Content Include="Views\Reservas\IndexCliente.cshtml" />
+    <Content Include="Views\Reservas\IndexEmpresa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201911301858330_ModeloInicial.resx">

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.Entity.Validation;
 using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
@@ -106,7 +107,7 @@ namespace TP_PWEB.Controllers
         {
             ApplicationDbContext db = new ApplicationDbContext();
             var roles = db.Roles.Where(m => m.Name == TipoPerfil.User || m.Name == TipoPerfil.Company);
-            ViewBag.RoleName = new SelectList(roles, "NomeUsr", "NomeUsr");
+            ViewBag.RoleName = new SelectList(roles, "Name", "Name");
             return View();
         }
 
@@ -122,23 +123,36 @@ namespace TP_PWEB.Controllers
 
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.NomeUsr, Email = model.Email };
-                var result = await UserManager.CreateAsync(user, model.Password);
+                var newuser = new ApplicationUser { UserName = model.NomeUsr, Email = model.Email };
+                var result = await UserManager.CreateAsync(newuser, model.Password);
+
                 if (result.Succeeded)
                 {
-                    if (model.TipoPerfil != TipoPerfil.Admin)
+                    try
                     {
-                        UserManager.AddToRole(user.Id, model.TipoPerfil);
-                    }
+                        if (model.TipoPerfil != TipoPerfil.Admin)
+                        {
+                            UserManager.AddToRole(newuser.Id, model.TipoPerfil);
+                        }
 
-                    if (model.TipoPerfil == TipoPerfil.User)
+                        if (model.TipoPerfil == TipoPerfil.User)
+                        {
+                            Utilizador userCard = new Utilizador { ID = newuser.Id, Email = model.Email };
+                            db.Utilizadores.Add(userCard);
+                            db.SaveChanges();
+                        }
+                    }
+                    catch (DbEntityValidationException ex)
                     {
-                        Utilizador nUser= new Utilizador { /*NomeUsr = user.UserName*/ ID = user.Id, Email = model.Email, PerfilID=model.TipoPerfil};
-                        db.Utilizadores.Add(nUser);
-                        db.SaveChanges();
+                        foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                        {
+                            foreach (var validationError in entityValidationErrors.ValidationErrors)
+                            {
+                                Response.Write("Property: " + validationError.PropertyName + " Error: " + validationError.ErrorMessage);
+                            }
+                        }
                     }
-
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                    await SignInManager.SignInAsync(newuser, isPersistent:false, rememberBrowser:false);
                     
                     // For more information on how to enable account confirmation and password reset please visit https://go.microsoft.com/fwlink/?LinkID=320771
                     // Send an email with this link
@@ -146,11 +160,12 @@ namespace TP_PWEB.Controllers
                     // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Manage");
                 }
                 AddErrors(result);
             }
-
+            var perfil = db.Roles.Where(x => x.Name == TipoPerfil.User || x.Name == TipoPerfil.Company);
+            ViewBag.TipoPerfil = new SelectList(perfil, "Name", "Name");
             // If we got this far, something failed, redisplay form
             return View(model);
         }

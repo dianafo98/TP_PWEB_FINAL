@@ -24,13 +24,13 @@ namespace TP_PWEB.Controllers
             if (User.IsInRole(TipoPerfil.User))
             {
                 var id = User.Identity.GetUserId();
-                var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador.ID == id);
+                var reservaCliente = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Where(x => x.Utilizador.ID == id);
                 return View("IndexCliente", reservaCliente.ToList());
             }
             if (User.IsInRole(TipoPerfil.User))
             {
                 var id = User.Identity.GetUserId();
-                var reservaEmpresa = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.EstacaoReservada.Empresa.ID == id);
+                var reservaEmpresa = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Where(x => x.EstacaoReservada.Empresa.ID == id);
                 return View("IndexEmpresa", reservaEmpresa.ToList());
             }
             var reservas = db.Reservas.Include(x => x.EstacaoReservada).Include(x => x.PostoReservado).Include(x => x.Utilizador);
